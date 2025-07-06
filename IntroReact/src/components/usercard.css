@@ -1,0 +1,9 @@
+.user-container{
+    background-color: purple;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: 30px;
+}
