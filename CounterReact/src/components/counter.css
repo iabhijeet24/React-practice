@@ -1,6 +1,6 @@
-body{
-    background-color: purple;
-}
 .counter-card{
     color: black;
+    height: 20vh;
+    width: 40vw;
+    gap: 5px;
 }

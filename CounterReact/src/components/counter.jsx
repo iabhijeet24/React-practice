@@ -1,11 +1,7 @@
-import React from 'react'
-import "../components/counter.css"
+import React from 'react';
 
+const Counter = () => {
+  return <h2 style={{ color: 'red' }}>Counter Component Loaded</h2>;
+};
 
-const counter = () => {
-  return (
-    <div className='counter-card'>Doggie</div>
-  )
-}
-
-export default counter
+export default Counter;
