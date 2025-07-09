@@ -1,9 +1,30 @@
-.user-container{
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);;
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px;
-    margin: 30px;
+.user-container {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin: 30px;
+  line-height: 0.3;
+  text-align: center;
+}
+
+.user-container {
+  border-radius: 5px;
+  height: 50vh;
+  width: 20vw;
+  color: rgb(48, 45, 45);
+}
+
+#user-name{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#user-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+
 }
