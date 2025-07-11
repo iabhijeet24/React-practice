@@ -1,0 +1,37 @@
+.suggestion-wrapper {
+  position: absolute;      
+  top: 100%;               
+  left: 0;
+  width: 100%;               
+  z-index: 1000;              
+}
+
+.suggestion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #dcdcdc;
+  border-top: none;             
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-height: 240px;    
+  overflow-y: auto;
+  font-family: sans-serif;
+}
+
+.suggestion-item {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item:focus {
+  background: #f2f2f2;
+}
+
+.no-match {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
