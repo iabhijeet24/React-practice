@@ -1,0 +1,85 @@
+.simple-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.simple-form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.simple-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.simple-form input,
+.simple-form textarea {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.simple-form input:focus,
+.simple-form textarea:focus {
+  border-color: #007bff;
+}
+
+.simple-form button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.simple-form button:hover {
+  background: #0056d2;
+}
+
+@media (prefers-color-scheme: dark) {
+  .simple-form {
+    background: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .simple-form label {
+    color: #f3f3f3;
+  }
+
+  .simple-form input,
+  .simple-form textarea {
+    background: #2a2a2a;
+    border-color: #555555;
+    color: #f3f3f3;
+  }
+
+  .simple-form input:focus,
+  .simple-form textarea:focus {
+    border-color: #3d8bff;
+  }
+}
+
+@media (max-width: 500px) {
+  .simple-form {
+    padding: 1.5rem;
+  }
+}
