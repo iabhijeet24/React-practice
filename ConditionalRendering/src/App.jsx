@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import SimpleForm from "../components/Form"; 
+import SimpleForm from "./components/Form";
+
 
 import './App.css'
 
