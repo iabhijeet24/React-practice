@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import SimpleForm from "./SimpleForm"; 
-
+import SimpleForm from "../components/Form"; 
 
 import './App.css'
+
 
 export default function App() {
 
@@ -22,7 +22,7 @@ export default function App() {
         <>
           <SimpleForm />
           <div style={{ textAlign: "center", marginTop: "1rem" }}>
-            <button onClick={handleLogin}>Mock Login</button>
+            <button onClick={handleLogin}>Login</button>
           </div>
         </>
       )}
